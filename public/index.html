@@ -9,30 +9,53 @@
                 margin: 0;
                 padding: 0;
             }
-            .div {
-                margin: 150px auto;
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            body table:first-child {
+                margin: 150px;
             }
         </style>
     </head>
     <body>
-        <div style="display: flex; justify-content: center; align-items: center; font-family: sans-serif;" class="div">
-            <img src="https://raw.githubusercontent.com/jric2002/Signature/master/public/img/avatars/Jos%C3%A9%20Rodolfo.jpg" alt="Avatar" style="height: 75px; border-radius: 50%;"/>
-            <div style="width: 5px; height: 75px; border-radius: 5px; background-color: #2490fc; margin: 0 10px;"></div>
-            <div>
-                <h1 style="font-size: 20px;">José Rodolfo</h1>
-                <p style="font-size: 14px;">Estudiante de Ingeniería de Sistemas</p>
-                <div style="display: flex; justify-content: flex-start; align-items: center; padding: 8px 0;">
-                    <a href="https://twitter.com/jric2002" style="display: flex; justify-content: center; align-items: center; margin: 0 5px 0 0;">
-                        <img src="https://raw.githubusercontent.com/jric2002/Signature/master/public/img/icons/twitter.png" alt="Twitter" style="width: 20px;"/>
-                    </a>
-                    <a href="https://github.com/jric2002" style="display: flex; justify-content: center; align-items: center; margin: 0 5px;">
-                        <img src="https://raw.githubusercontent.com/jric2002/Signature/master/public/img/icons/github.png" alt="GitHub" style="width: 20px;"/>
-                    </a>
-                    <a href="https://t.me/jric2002" style="display: flex; justify-content: center; align-items: center; margin: 0 0 0 5px;">
-                        <img src="https://raw.githubusercontent.com/jric2002/Signature/master/public/img/icons/telegram.png" alt="Telegram" style="width: 20px;"/>
-                    </a>
-                </div>
-            </div>
-        </div>
+        <table style="font-family: sans-serif; border-collapse: collapse;">
+            <tbody>
+                <tr>
+                    <td style="padding: 5px;">
+                        <img src="https://raw.githubusercontent.com/jric2002/Signature/master/public/img/avatars/jric2002.jpg" alt="Avatar" style="height: 75px; border-radius: 50%; vertical-align: middle;"/>
+                    </td>
+                    <td>
+                        <div style="width: 5px; height: 75px; border-radius: 5px; background-color: #2490fc; margin: 0 10px;"></div>
+                    </td>
+                    <td style="padding: 5px;">
+                        <h1 style="font-size: 20px;">José Rodolfo</h1>
+                        <p style="font-size: 14px;">Estudiante de Ingeniería de Sistemas</p>
+                        <table style="border-collapse: collapse; margin: 5px;">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <a href="https://twitter.com/jric2002" style="display: flex; justify-content: center; align-items: center; margin: 0 5px 0 0;">
+                                            <img src="https://raw.githubusercontent.com/jric2002/Signature/master/public/img/icons/twitter.png" alt="Twitter" style="width: 20px;"/>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="https://github.com/jric2002" style="display: flex; justify-content: center; align-items: center; margin: 0 5px;">
+                                            <img src="https://raw.githubusercontent.com/jric2002/Signature/master/public/img/icons/github.png" alt="GitHub" style="width: 20px;"/>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="https://t.me/jric2002" style="display: flex; justify-content: center; align-items: center; margin: 0 0 0 5px;">
+                                            <img src="https://raw.githubusercontent.com/jric2002/Signature/master/public/img/icons/telegram.png" alt="Telegram" style="width: 20px;"/>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </body>
 </html>
