@@ -8,4 +8,4 @@ Aquí te dejo una captura de pantalla de la firma.
 ![Signature](https://github.com/jric2002/Signature/blob/master/public/img/wallpapers/signature.png)
 
 ## Licencia
-Paddington está hecho con 💚 por **José Rodolfo**. Vea el archivo de **Licencia** para más detalles.
+Signature está hecho con 💚 por **José Rodolfo**. Vea el archivo de **Licencia** para más detalles.
