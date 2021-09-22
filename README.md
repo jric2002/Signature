@@ -13,4 +13,4 @@ Si tienes alguna sugerencia o si ocurre algún problema, puedes dejar tu comenta
 
 ## Licencia
 Vea el archivo de [Licencia](https://github.com/jric2002/Signature/blob/master/LICENSE) para más detalles.  
-Media player está hecho con 💚 por **José Rodolfo**.
+Signature está hecho con 💚 por **José Rodolfo**.
